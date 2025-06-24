@@ -15,6 +15,7 @@ use Filament\Support\Facades\FilamentView;
 use Illuminate\Support\Str;
 use Outerweb\Settings\Models\Setting;
 use BackedEnum;
+use Filament\Support\Icons\Heroicon;
 /**
  * @property Form $form
  */
