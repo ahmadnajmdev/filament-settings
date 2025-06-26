@@ -51,7 +51,7 @@ class Settings extends Page
         return [];
     }
 
-    public function form(Schema $form) : Form
+    public function form(Schema $form) : Schema
     {
         return $form
             ->components($this->schema())
