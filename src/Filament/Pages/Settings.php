@@ -16,6 +16,7 @@ use Illuminate\Support\Str;
 use Outerweb\Settings\Models\Setting;
 use BackedEnum;
 use Filament\Support\Icons\Heroicon;
+use Filament\Schemas\Schema;
 /**
  * @property Form $form
  */
@@ -50,7 +51,7 @@ class Settings extends Page
         return [];
     }
 
-    public function form(Form $form) : Form
+    public function form(Schema $form) : Form
     {
         return $form
             ->schema($this->schema())
