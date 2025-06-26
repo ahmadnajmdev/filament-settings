@@ -54,7 +54,7 @@ class Settings extends Page
     public function form(Schema $form) : Form
     {
         return $form
-            ->schema($this->schema())
+            ->components($this->schema())
             ->statePath('data');
     }
 
